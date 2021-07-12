@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.6"
+
+[packages]
+gunicorn = "==19.9.0"
+itsdangerous = "==1.1.0"
+numpy = ">=1.9.2"
+scipy = ">=0.15.1"
+scikit-learn = "==0.22.1"
+matplotlib = ">=1.4.3"
+pandas = ">=0.19"
+flasgger = "==0.9.4"
+streamlit = "*"
+Jinja2 = "==2.10.1"
+MarkupSafe = "==1.1.1"
+Werkzeug = "==0.15.5"
+Flask = "==1.1.1"
+
+[dev-packages]
